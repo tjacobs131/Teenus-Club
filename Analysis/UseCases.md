@@ -10,16 +10,6 @@
 | Extensions:    | n/a
 | Exceptions:    | 2. There is no match on that specific date. <br />2.1 System returns to step 1. |
 
-|                 | Description UC01                                          
-|-----------------|-------------------
-| Name:           | 
-| Actor:          | 
-| Description:    | 
-| Pre-Condition:  | 
-| Scenario:       | 
-| Result:         | 
-| Extensions:     | 
-| Exceptions:     | 
 
 |                 | Description UC02                                          
 |-----------------|-------------------
@@ -60,7 +50,7 @@
 | Actor:          | 
 | Description:    | 
 | Pre-Condition:  | 
-| Scenario:       | 
+| Scenario:       | 1. Actor selects ongoing game to update <br> 2. System displays current game information <br> 3. Actor changes team names and/or scores <br> 4. Actor indicates that they're done <br> 5. System asks for confirmation <br> 6. Actor confirms <br> 7. System updates match information and returns the actor to the match list
 | Result:         | 
 | Extensions:     | 
 | Exceptions:     | 
