@@ -10,6 +10,39 @@
 | Extensions:    | n/a
 | Exceptions:    | 2. There is no match on that specific date. <br />2.1 System returns to step 1. |
 
+|                 | Description UC01                                          
+|-----------------|-------------------
+| Name:           | 
+| Actor:          | 
+| Description:    | 
+| Pre-Condition:  | 
+| Scenario:       | 
+| Result:         | 
+| Extensions:     | 
+| Exceptions:     | 
+
+|                 | Description UC02                                          
+|-----------------|-------------------
+| Name:           | 
+| Actor:          | 
+| Description:    | 
+| Pre-Condition:  | 
+| Scenario:       | 
+| Result:         | 
+| Extensions:     | 
+| Exceptions:     | 
+
+|                 | Description UC03                                          
+|-----------------|-------------------
+| Name:           | 
+| Actor:          | 
+| Description:    | 
+| Pre-Condition:  | 
+| Scenario:       | 
+| Result:         | 
+| Extensions:     | 
+| Exceptions:     | 
+
 |                 | Description UC04                                          
 |-----------------|-------------------
 | Name:           | Finalize match
@@ -20,3 +53,14 @@
 | Result:         | The match is closed and uploaded to the database.
 | Extensions:     | 3.a Actor does not confirm. <br />1. System goes back and gives actor options to edit the given data.
 | Exceptions:     | 2. If not data was given, system informs actor that actor needs to input data. <br />2.1 System returns to step 1.
+
+|                 | Description UC05                                          
+|-----------------|-------------------
+| Name:           | 
+| Actor:          | 
+| Description:    | 
+| Pre-Condition:  | 
+| Scenario:       | 
+| Result:         | 
+| Extensions:     | 
+| Exceptions:     | 
