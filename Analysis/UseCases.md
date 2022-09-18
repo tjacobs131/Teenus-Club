@@ -22,16 +22,16 @@
 | Extensions:     | 
 | Exceptions:     | 
 
-|                 | Description UC03                                          
-|-----------------|-------------------
-| Name:           | 
-| Actor:          | 
-| Description:    | 
-| Pre-Condition:  | 
-| Scenario:       | 
-| Result:         | 
-| Extensions:     | 
-| Exceptions:     | 
+|                 | Description UC03           |                               
+|-----------------|-------------------|
+| Name:           | Initiate Match |
+| Actor:          | Referee or Club Management |
+| Description:    | Creates a new match |
+| Pre-Condition:  | Actor must be signed in as Referee or Club Management |
+| Scenario:       | 1. Actor selects option to initiate new match  <br />2. System requests Actor to provide match data (Club names, match date, sets to win) <br />3. Actor provides match data (Club Names, sets to win) <br />4. Actor selects to create match <br />5. System adds new match |
+| Result:         | Match was created |
+| Extensions:     | 5.a.1 Actor selects advanced match data <br />5.a.2 System requests Actor to provide advanced match data (Player names, Team name) <br />5.a.3 Actor provides advanced match data <br />5.a.4 Actor selects save option <br />5.a.5 Executes step 5. |
+| Exceptions:     | 5.a.1 Actor provided incorrect data <br />5.a.2 Returns to step 3. |
 
 |                 | Description UC04                                          
 |-----------------|-------------------
