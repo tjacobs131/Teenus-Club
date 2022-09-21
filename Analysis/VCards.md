@@ -70,16 +70,16 @@
 
 |               | **Volere card: UC05**
 |---------------|------------------------
-| Requirement # | 
-| Requirement type | 
-| Event / Use Case # | 
-| Description | 
-| Rationale | 
-| Originator | 
-| Fit criterion | 
-| Customer Satisfaction | 
-| Customer Dissatisfaction | 
-| Priority | 
-| Conflicts | 
-| Supporting materials | 
-| History | 
+| Requirement # | 5
+| Requirement type | Functional Requirement
+| Event / Use Case # | UC05
+| Description | The system shall update scores of an ongoing game based on the input of the referee.
+| Rationale | The referee can update a game as long as it is not finalized. This makes sure that a game can only be edited by the referee, and only once a game is finished.
+| Originator | Referee
+| Fit criterion | A game should be simple and intuitive to edit
+| Customer Satisfaction | 5
+| Customer Dissatisfaction | 3
+| Priority | Essential
+| Conflicts | None
+| Supporting materials | SRS
+| History | Creation (21.09.2022)
