@@ -1,7 +1,6 @@
-Software Requirements Specification (SRS) Project 
-Automate Paint Defect Analysis 
- 
-Authors: James Boogaard
+# Software Requirements Specification for tennis scorekeeping
+
+Authors: James Boogaard <br>
 Customer: Tennis Club 
  
 # 1 Introduction 
