@@ -1,6 +1,6 @@
-# Software Requirements Specification for tennis scorekeeping
+# Software Requirements Specification for tennis scorekeeping application
 
-Authors: James Boogaard <br>
+Authors: James Boogaard, Hendrik Paß, Jan Pinto Strohhäusl, Justus Reiffs, Tim Baars and Tom Jacobs <br>
 Customer: Tennis Club 
  
 # 1 Introduction 
