@@ -89,11 +89,30 @@ It is assumed that the end user will have access to an internet connection at so
 3.2.2.2 Stimulus/Response Sequence
 3.2.2.3 Associated Functional Requirements
  
-3.2.3 System Feature 3 (Initiate Match)
-3.2.3.1 Introduction/Purpose of Feature
-3.2.3.2 Stimulus/Response Sequence
-3.2.3.3 Associated Functional Requirements
- 
+### 3.2.3 System Feature 3 (Initiate Match)
+#### 3.2.3.1 Introduction/Purpose of Feature
+The feature creates a new match instance available for later use.
+The match shall contain the following information:
+- Club Names
+- Match Date
+- Sets required to win
+
+Optionally the match can contain:
+- Team (e.g. U17-1 for age under 17 team 1, U17-2 for age under 17 team 2)
+- Player Name (As GDPR )
+
+#### 3.2.3.2 Stimulus/Response Sequence
+3.2.3.2.1 Actor selects option to initiate new match <br />
+3.2.3.2.2 System requests Actor to provide match data (Club names, match date, sets to win) <br />
+3.2.3.2.3 Actor provides match data (Club Names, match date, sets to win) <br />
+3.2.3.2.4 Actor selects to create match <br />
+3.2.3.2.5 System adds new match
+
+#### 3.2.3.3 Associated Functional Requirements
+3.2.3.3.1 Actor must have Referee or higher permissions <br />
+3.2.3.3.2 Actor must provide valid information <br />
+3.2.3.3.3 Invalid Date results in now
+
 3.2.4 System Feature 4 (Finalize Match)
 3.2.4.1 Introduction/Purpose of Feature
 3.2.4.2 Stimulus/Response Sequence
