@@ -46,22 +46,11 @@
 
 |                 | Description UC05                                          
 |-----------------|-------------------
-<<<<<<< Updated upstream
 | Name:           | Updating match
 | Actor:          | Referee
 | Description:    | Updating scores and player and team information during the course of the match
 | Pre-Condition:  | There is an ongoing game available to update.
-| Scenario:       | 1. Actor selects ongoing game to update <br> 2. System displays current game information <br> 3. Actor changes team names and/or scores <br> 4. Actor indicates that they're done <br> 5. System asks for confirmation <br> 6. Actor confirms <br> 7. System updates match information and returns the actor to the match list
+| Scenario:       | 1. Actor selects ongoing game to update <br> 2. System displays current game information <br> 3. Actor changes team names and/or scores <br> 4. Actor indicates that they want to finalize the match <br> 5. System asks for confirmation <br> 6. Actor confirms <br> 7. System finalizes match information and returns the actor to the match list
 | Result:         | A games inforamtion has been updated.
 | Extensions:     | N/A
 | Exceptions:     | 4. Actor indicates that they're done<br>4.1 Actor has entered an invalid name<br>4.2 System points out invalid text field and returns to step 3.
-=======
-| Name:           | 
-| Actor:          | 
-| Description:    | 
-| Pre-Condition:  | 
-| Scenario:       | 1. Actor selects ongoing game to update <br> 2. System displays current game information <br> 3. Actor changes team names and/or scores <br> 4. Actor indicates that they want to finalize the match <br> 5. System asks for confirmation <br> 6. Actor confirms <br> 7. System finalizes match information and returns the actor to the match list
-| Result:         | 
-| Extensions:     | 
-| Exceptions:     | 
->>>>>>> Stashed changes
