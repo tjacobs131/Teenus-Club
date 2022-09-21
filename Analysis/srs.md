@@ -90,7 +90,7 @@ It is assumed that the end user will have access to an internet connection at so
  
 ### 3.2.3 System Feature 3 (Initiate Match)
 #### 3.2.3.1 Introduction/Purpose of Feature
-The feature creates a new match instance available for later use.
+This feature is a key feature of this software. With this feature, a new match instance shall be created and made available for now or later use.
 The match shall contain the following information:
 - Club Names
 - Match Date
