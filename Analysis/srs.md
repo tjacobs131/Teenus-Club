@@ -94,10 +94,19 @@ It is assumed that the end user will have access to an internet connection at so
 3.2.3.2 Stimulus/Response Sequence
 3.2.3.3 Associated Functional Requirements
  
+
 3.2.4 System Feature 4 (Finalize Match)
+
 3.2.4.1 Introduction/Purpose of Feature
+
+This feature is a key feature of this software. With this feature, the match data given by the referee through out the match will be collected and directly uploaded to the database. In the database the data will be stored and be available for everyone. This way it is ensured that the data will be stored correctly in the database and will not be changed during the process of archiving.
+
 3.2.4.2 Stimulus/Response Sequence
+
+To activate this feature, the referee needs to initiate a match. After that, the referee needs to input data before finalizing the match. After finalizing the match, the match will uploaded to the database and users cannot change the inputted data.
+
 3.2.4.3 Associated Functional Requirements
+
  
 3.2.5 System Feature 5 (Update Match)
 3.2.5.1 Introduction/Purpose of Feature
