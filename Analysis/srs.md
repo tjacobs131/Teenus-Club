@@ -1,7 +1,6 @@
-Software Requirements Specification (SRS) Project 
-Automate Paint Defect Analysis 
- 
-Authors: James Boogaard
+# Software Requirements Specification for tennis scorekeeping application
+
+Authors: James Boogaard, Hendrik Paß, Jan Pinto Strohhäusl, Justus Reiffs, Tim Baars and Tom Jacobs <br>
 Customer: Tennis Club 
  
 # 1 Introduction 
@@ -28,21 +27,21 @@ The system will be an offline application that has the ability to add scores to 
 | Database | Is an organized collection of structured information that in our case will be used to store the past games information.
 
 ## 1.4 References
-Title | HOW DOES TENNIS SCORE WORK? | TENNIS SCORE EXPLAINED
-Report Number | -
-Date | April 30, 2022
-Publishing Organization | Super Tennis Racquet - Robert Dexter
+Title : HOW DOES TENNIS SCORE WORK? TENNIS SCORE EXPLAINED <br>
+Report Number : - <br>
+Date : April 30, 2022 <br>
+Publishing Organization : Super Tennis Racquet - Robert Dexter <br>
 https://supertennisracquet.com/how-does-tennis-score-work/
 
-Title | TENNIS RANKING SYSTEM: HOW DOES IT WORK? WTA & ATP EXPLANATIONS
-Report Number | -
-Date | January 1, 2022
-Publishing Organization | Super Tennis Racquet - Robert Dexter
+Title : TENNIS RANKING SYSTEM: HOW DOES IT WORK? WTA & ATP EXPLANATIONS <br>
+Report Number : - <br>
+Date : January 1, 2022 <br>
+Publishing Organization : Super Tennis Racquet - Robert Dexter <br>
 https://supertennisracquet.com/tennis-ranking-system/
 
-## 1.5   Overview
+## 1.5  Overview
 
-Following this introductory section, the rest of the Software Requirements Specification document will further explain the specifics of the software system being produced. Section 2 focuses on the context for needing the proposed system, how it should function, and the related constraints. Section 3 provides a detailed listing of the requirements specific to the system following a hierarchical numbering scheme. Section 4 addresses the modelling requirements which includes use cases diagrams, a state diagram, and a high-level class diagram. Section 5 discusses the proposed prototype and the details of the system with instructions on how to run it as well as sample scenarios. Section 6 contains a list of references used throughout the document. Finally, Section 7 provides contact information used for further inquiries. 
+Following this introductory section, the rest of the Software Requirements Specification document will further explain the specifics of the software system being produced. Chapter 2 focuses on the context for the proposed system, how it should function, and the related constraints. Chapter 3 provides a detailed listing of the requirements specific to the system following a hierarchical numbering scheme.
 
 # 2 Overall Description 
 
