@@ -85,20 +85,22 @@ It is assumed that the end user will have access to an internet connection at so
 ---
 ### 3.2.2 System Feature 2 (View Match)
 ### 3.2.2.1 Introduction/Purpose of Feature
-
-It enables a user to look at the data(The score, The rounds and Player name and club) for a match that has taken place.
-
+    It enables a user to look at the data for a match that has taken place.
+    -The score
+    -The rounds 
+    -Player name and club
 ### 3.2.2.2 Stimulus/Response Sequence
     
 ### 3.2.2.3 Associated Functional Requirements
+
 ---
 ### 3.2.3 System Feature 3 (Initiate Match)
 #### 3.2.3.1 Introduction/Purpose of Feature
-This feature is a key feature of this software. With this feature, a new match instance shall be created and made available for now or later use.
-The match shall contain the following information:
-- Club Names
-- Match Date
-- Sets required to win
+    This feature is a key feature of this software. With this feature, a new match instance shall be created and made available for now or later use.
+    The match shall contain the following information:
+    - Club Names
+    - Match Date
+    - Sets required to win
 
 Optionally the match can contain:
 - Team (e.g. U17-1 for age under 17 team 1, U17-2 for age under 17 team 2)
@@ -134,11 +136,25 @@ To activate this feature, the referee needs to initiate a match. After that, the
  
 ### 3.2.5 System Feature 5 (Update Match)
 ### 3.2.5.1 Introduction/Purpose of Feature
+    Allows the user(Admin) the ability to update scores, player and team information during the course of the match.
 ### 3.2.5.2 Stimulus/Response Sequence
+    1. Actor selects ongoing game to update.
+    2. System displays current game information.
+    3. Actor changes team names and/or scores.
+    4. Actor indicates that they want to finalize the match.
+    5. System asks for confirmation.
+    6. Actor confirms.
+    7. System finalizes match information and returns the   actor to the match list.
 ### 3.2.5.3 Associated Functional Requirements
+    1. Actor must have permissions of a referee 
+    2. Actor must supply information that is valid else the request to confirm will be bounced by the system
+    3. Once a refree confirms the matches finalization, the matches data can no longer be changed.
+---
 
- 
 3.3 Performance Requirements
+
 3.4 Design Constraints
+
 3.5 Software System Attributes
+
 3.6 Other Requirements
