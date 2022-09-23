@@ -19,19 +19,19 @@
 
 |               | **Volere card: UC02**
 |---------------|------------------------
-| Requirement # | 
-| Requirement type | 
-| Event / Use Case # | 
-| Description | 
-| Rationale | 
-| Originator | 
-| Fit criterion | 
+| Requirement # | 02
+| Requirement type | 3.2
+| Event / Use Case # | UC02
+| Description |  A match must be created with Match data.
+| Rationale | To be able to look up previous matches to analyze their results.
+| Originator | Club manager and Referee from the tennis club
+| Fit criterion | The Match data found have to be connected to a certain match.
 | Customer Satisfaction | 
 | Customer Dissatisfaction | 
 | Priority | 
-| Conflicts | 
-| Supporting materials | 
-| History | 
+| Conflicts | 1
+| Supporting materials | The Device to search for a Match on the browser.
+| History | Created September 14,2022
 
 
 |               | **Volere card: UC03**
