@@ -45,29 +45,19 @@ Following this introductory section, the rest of the Software Requirements Speci
 
 # 2 Overall Description 
 
-This section will cover general information about the project perspective, functions, and various requirements and constraints.
+This section is going to cover general information about the project. Such as functions, the projects perspective, and various requirements such as relevant constraints. 
 
---JR
-This section is going to cover general information about the project. In such as functions, the projects perspective, and various requirements and in such also case relevant constraints. 
---
  
 ## 2.1 Product Perspective 
 
-This product is used to track information for tennis games and then store that information in a database where it can later be accessed and efficiently sorted through. It will also lead to the information being safer as there is now risk as you can duplicate the information more easily. It will be an application that can be used offline and then when it has internet connection again it will upload the information to the database to be safely stored. 
+This product is used to track information for tennis games and then store that information in a database where it can later be accessed and efficiently sorted through. It will also lead to the information being safer than it is now as you can alter the information easily in the systems current state. It will be an application that can be used offline and then when it has internet connection again it will upload the information to the database to be safely stored. 
 
---JR
-The usage of this software is to track information for several tennis games ant to then store the entered information to a database where it is stored in such way that it later can be accessed and be erectly sorted through. To prevent the risk of information being duplicated or damaged, the applications will provide a database where the data can safely be stored. Also, data loss is less a problem because you can consistently upload and store data, so that if the user has no internet connection the data will be stored local and uploaded afterwards when the connection is restored.   
---
 
 ## 2.2 Product Functions 
 
 The end product will start off by having an initialization for a match option where the user can then enter all the information about the players and their clubs that is needed and then they start the match where they can update information like the scores as well as the names if needed. They then end the match, and the data is stored locally if there is no internet connection available and is then 
 uploaded later when there is a connection. There will also be a search function for users that are not on the admin where they can access information about matches by searching key phrases that are applicable to the matches they want to find. 
 
---JR
-The application in the end is going to provide the function to start of having an initialisation. There are going to be different match options where the user can enter information about the Match. That includes data about the player and their related clubs. It is required to start the match in such that there the referee can enter the scores and update them if needed. They are going to be able to end the match and upload the data to the server or database, and if there is no internet connection available the data will be stored locally and uploaded when the connection is available again.
-There also will be a search function, so that users without admin access can access information about the match. They can find a match by entering a key phrase which is applicable to the matches they are forward to find.
---
 
 ## 2.3 User Characteristics 
 

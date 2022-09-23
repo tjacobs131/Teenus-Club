@@ -17,10 +17,7 @@
 | Actor:          | Everyone
 | Description:    | View information about a match
 | Pre-Condition:  | A match Exist in the database, User in registert to the system
-| Scenario:       | 1. The user enters a Match Kex value in the serch bar.
-                    2. The system lists all matches with this Key value.
-                    3. The User cliks on a spesefic match.
-                    4. the system opens the Match and its Match Data.
+| Scenario:       | 1. The user enters a Match Kex value in the serch bar.</br>2. The system lists all matches with this Key value.</br>3. The User cliks on a spesefic match.</br>4. the system opens the Match and its Match Data.
 | Result:         | The user can view the Data/Information of a specific match. 
 | Extensions:     | n/a
 | Exceptions:     | n/a
