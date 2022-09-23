@@ -82,12 +82,16 @@ It is assumed that the end user will have access to an internet connection at so
 3.2.1.1 Introduction/Purpose of Feature
 3.2.1.2 Stimulus/Response Sequence
 3.2.1.3 Associated Functional Requirements
- 
-3.2.2 System Feature 2 (View Match)
-3.2.2.1 Introduction/Purpose of Feature
-3.2.2.2 Stimulus/Response Sequence
-3.2.2.3 Associated Functional Requirements
- 
+---
+### 3.2.2 System Feature 2 (View Match)
+### 3.2.2.1 Introduction/Purpose of Feature
+
+It enables a user to look at the data(The score, The rounds and Player name and club) for a match that has taken place.
+
+### 3.2.2.2 Stimulus/Response Sequence
+    
+### 3.2.2.3 Associated Functional Requirements
+---
 ### 3.2.3 System Feature 3 (Initiate Match)
 #### 3.2.3.1 Introduction/Purpose of Feature
 This feature is a key feature of this software. With this feature, a new match instance shall be created and made available for now or later use.
@@ -112,7 +116,9 @@ Optionally the match can contain:
 3.2.3.3.2 Actor must provide valid information <br />
 3.2.3.3.3 Invalid Date results in now
 
-3.2.4 System Feature 4 (Finalize Match)
+---
+
+### 3.2.4 System Feature 4 (Finalize Match)
 
 3.2.4.1 Introduction/Purpose of Feature
 
@@ -124,11 +130,12 @@ To activate this feature, the referee needs to initiate a match. After that, the
 
 3.2.4.3 Associated Functional Requirements
 
+---
  
-3.2.5 System Feature 5 (Update Match)
-3.2.5.1 Introduction/Purpose of Feature
-3.2.5.2 Stimulus/Response Sequence
-3.2.5.3 Associated Functional Requirements
+### 3.2.5 System Feature 5 (Update Match)
+### 3.2.5.1 Introduction/Purpose of Feature
+### 3.2.5.2 Stimulus/Response Sequence
+### 3.2.5.3 Associated Functional Requirements
 
  
 3.3 Performance Requirements
