@@ -70,28 +70,25 @@ The system requires that in order to upload the information of a match once it i
 
 ## 2.5 Assumptions and Dependencies 
 
-It is assumed that the end user will have access to an internet connection at some point during or after the match, they must also have access to a phone or tablet or device capable of connecting to the internet. They should also know the rules of tennis if they are to be adding scores in one of the admin accounts. 
+It is assumed that the end user will have access to an internet connection at some point during or after the match, they must also have access to a phone or tablet or device capable of connecting to the internet and running our appllication. They should also know the rules of tennis if they are to be adding scores in one of the admin accounts. 
 
---JR
-To use the application, it is assumed that the user will have to a stabile internet connection before, during, or at least after the match so that Data can be transferred. They should also have a device on which the application is able to run on like a phone tablet or laptop. 
-Also, it is required that the user is aware of the tennis rules because it is necessary to know them when interacting with points and scores through the system.
---
 
- 
- 
-
-3. Specific Requirements
-3.1 External Interface Requirements
-3.1.1 User Interfaces
-3.1.2 Hardware Interfaces
-3.1.3 Software Interfaces
-3.1.4 Communication Interfaces
- 
-3.2 System Features
-3.2.1 System Feature 1 (Search Match)
-3.2.1.1 Introduction/Purpose of Feature
-3.2.1.2 Stimulus/Response Sequence
-3.2.1.3 Associated Functional Requirements
+### 3. Specific Requirements
+### 3.1 External Interface Requirements
+---
+### 3.1.1 User Interfaces
+---
+### 3.1.2 Hardware Interfaces
+---
+### 3.1.3 Software Interfaces
+---
+### 3.1.4 Communication Interfaces
+---
+### 3.2 System Features
+### 3.2.1 System Feature 1 (Search Match)
+### 3.2.1.1 Introduction/Purpose of Feature
+### 3.2.1.2 Stimulus/Response Sequence
+### 3.2.1.3 Associated Functional Requirements
 ---
 ### 3.2.2 System Feature 2 (View Match)
 ### 3.2.2.1 Introduction/Purpose of Feature
@@ -100,17 +97,19 @@ Also, it is required that the user is aware of the tennis rules because it is ne
     -The rounds 
     -Player name and club
 ### 3.2.2.2 Stimulus/Response Sequence
-    
+    1. The user selects a match that has taken place.
+    2. The system displays the match's page and the match's data.
 ### 3.2.2.3 Associated Functional Requirements
-
+    1. There actor is not registered.
+    2. The actor is connected to the internet.
 ---
 ### 3.2.3 System Feature 3 (Initiate Match)
 #### 3.2.3.1 Introduction/Purpose of Feature
-    This feature is a key feature of this software. With this feature, a new match instance shall be created and made available for now or later use.
-    The match shall contain the following information:
-    - Club Names
-    - Match Date
-    - Sets required to win
+This feature is a key feature of this software. With this feature, a new match instance shall be created and made available for now or later use.
+The match shall contain the following information:
+- Club Names
+- Match Date
+- Sets required to win
 
 Optionally the match can contain:
 - Team (e.g. U17-1 for age under 17 team 1, U17-2 for age under 17 team 2)
