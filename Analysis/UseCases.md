@@ -16,8 +16,8 @@
 | Name:           | view match data 
 | Actor:          | Everyone
 | Description:    | View information about a match
-| Pre-Condition:  | A match Exist in the database, User in registert to the system
-| Scenario:       | 1. The user selects a match that has taken place.</br>2. The systems displays the mathes page and the match data.
+| Pre-Condition:  | A match exists in the database
+| Scenario:       | 1. The user selects a match that has taken place.</br>2. The systems displays the match's page and the match's data.
 | Result:         | The user can view the data/information of a specific match. 
 | Extensions:     | n/a
 | Exceptions:     | n/a
