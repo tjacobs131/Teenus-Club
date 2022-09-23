@@ -63,17 +63,10 @@ uploaded later when there is a connection. There will also be a search function 
 
 There are two types of users that will have this program available to them. First, there is the umpire who will have access to starting, ending and updating scores and names during the course and before a match. Second, are the other users who use the application but only have access to the search function so they are able to find matches from the past and access those match’s information. 
 
---JR
-The application will be available for two types of user groups. The first one is going to be the umpire. They will have access to functions like starting and ending a match as also updating scores and names during the running match. The second group are other users like players and coaches. They are only able to search for matches in the past and access those related information’s. They are not going to be able to change, create or remove data.
---
 
 ## 2.4 Constraints 
 
-The system only requires that in order to upload the information of a match once it is finalized it will need an internet connection.  
-
---JR
-To upload the match information and data the system needs an internet connection. Also, the Match data has to be finalized and confirmed by the registered user. 
---
+The system requires that in order to upload the information of a match once it is finalized it will need an internet connection. The system doen't allow for updates to any information about the match after a match has been finalized. 
 
 ## 2.5 Assumptions and Dependencies 
 
