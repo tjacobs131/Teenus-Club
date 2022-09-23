@@ -46,27 +46,54 @@ Following this introductory section, the rest of the Software Requirements Speci
 # 2 Overall Description 
 
 This section will cover general information about the project perspective, functions, and various requirements and constraints.
+
+--JR
+This section is going to cover general information about the project. In such as functions, the projects perspective, and various requirements and in such also case relevant constraints. 
+--
  
 ## 2.1 Product Perspective 
 
 This product is used to track information for tennis games and then store that information in a database where it can later be accessed and efficiently sorted through. It will also lead to the information being safer as there is now risk as you can duplicate the information more easily. It will be an application that can be used offline and then when it has internet connection again it will upload the information to the database to be safely stored. 
+
+--JR
+The usage of this software is to track information for several tennis games ant to then store the entered information to a database where it is stored in such way that it later can be accessed and be erectly sorted through. To prevent the risk of information being duplicated or damaged, the applications will provide a database where the data can safely be stored. Also, data loss is less a problem because you can consistently upload and store data, so that if the user has no internet connection the data will be stored local and uploaded afterwards when the connection is restored.   
+--
 
 ## 2.2 Product Functions 
 
 The end product will start off by having an initialization for a match option where the user can then enter all the information about the players and their clubs that is needed and then they start the match where they can update information like the scores as well as the names if needed. They then end the match, and the data is stored locally if there is no internet connection available and is then 
 uploaded later when there is a connection. There will also be a search function for users that are not on the admin where they can access information about matches by searching key phrases that are applicable to the matches they want to find. 
 
+--JR
+The application in the end is going to provide the function to start of having an initialisation. There are going to be different match options where the user can enter information about the Match. That includes data about the player and their related clubs. It is required to start the match in such that there the referee can enter the scores and update them if needed. They are going to be able to end the match and upload the data to the server or database, and if there is no internet connection available the data will be stored locally and uploaded when the connection is available again.
+There also will be a search function, so that users without admin access can access information about the match. They can find a match by entering a key phrase which is applicable to the matches they are forward to find.
+--
+
 ## 2.3 User Characteristics 
 
 There are two types of users that will have this program available to them. First, there is the umpire who will have access to starting, ending and updating scores and names during the course and before a match. Second, are the other users who use the application but only have access to the search function so they are able to find matches from the past and access those match’s information. 
+
+--JR
+The application will be available for two types of user groups. The first one is going to be the umpire. They will have access to functions like starting and ending a match as also updating scores and names during the running match. The second group are other users like players and coaches. They are only able to search for matches in the past and access those related information’s. They are not going to be able to change, create or remove data.
+--
 
 ## 2.4 Constraints 
 
 The system only requires that in order to upload the information of a match once it is finalized it will need an internet connection.  
 
+--JR
+To upload the match information and data the system needs an internet connection. Also, the Match data has to be finalized and confirmed by the registered user. 
+--
+
 ## 2.5 Assumptions and Dependencies 
 
 It is assumed that the end user will have access to an internet connection at some point during or after the match, they must also have access to a phone or tablet or device capable of connecting to the internet. They should also know the rules of tennis if they are to be adding scores in one of the admin accounts. 
+
+--JR
+To use the application, it is assumed that the user will have to a stabile internet connection before, during, or at least after the match so that Data can be transferred. They should also have a device on which the application is able to run on like a phone tablet or laptop. 
+Also, it is required that the user is aware of the tennis rules because it is necessary to know them when interacting with points and scores through the system.
+--
+
  
  
 
