@@ -13,14 +13,17 @@
 
 |                 | Description UC02                                          
 |-----------------|-------------------
-| Name:           | 
-| Actor:          | 
-| Description:    | 
-| Pre-Condition:  | 
-| Scenario:       | 
-| Result:         | 
-| Extensions:     | 
-| Exceptions:     | 
+| Name:           | view match data 
+| Actor:          | Everyone
+| Description:    | View information about a match
+| Pre-Condition:  | A match Exist in the database, User in registert to the system
+| Scenario:       | 1. The user enters a Match Kex value in the serch bar.
+                    2. The system lists all matches with this Key value.
+                    3. The User cliks on a spesefic match.
+                    4. the system opens the Match and its Match Data.
+| Result:         | The user can view the Data/Information of a specific match. 
+| Extensions:     | n/a
+| Exceptions:     | n/a
 
 |                 | Description UC03           |                               
 |-----------------|-------------------|
