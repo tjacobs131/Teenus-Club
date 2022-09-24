@@ -88,50 +88,50 @@ It is assumed that the end user will have access to an internet connection at so
 # 3.2 System Features
 ## 3.2.1 System Feature 1 (Search Match)
 ### 3.2.1.1 Introduction/Purpose of Feature
-    This feature allows a user to look up a specific match that has taken place. With this feature, everyone can search for a match that is already finished.
+This feature allows a user to look up a specific match that has taken place. With this feature, everyone can search for a match that is already finished.
 ### 3.2.1.2 Stimulus/Response Sequence
-	1. System asks actor to select a date.
-    2. User actor selects date.
-    3. System shows all matches of that day.
+1. System asks actor to select a date.
+2. User actor selects date.
+3. System shows all matches of that day.
 ### 3.2.1.3 Associated Functional Requirements
-    1. The actor is connected to the internet
+1. The actor is connected to the internet
 ---
 ## 3.2.2 System Feature 2 (View Match)
 ### 3.2.2.1 Introduction/Purpose of Feature
-    It enables a user to look at the data for a match that has taken place.
-    -The score
-    -The rounds 
-    -Player name and club
+It enables a user to look at the data for a match that has taken place.
+- The score
+- The rounds 
+- Player name and club
 ### 3.2.2.2 Stimulus/Response Sequence
-    1. The user selects a match that has taken place.
-    2. The system displays the match's page and the match's data.
+1. The user selects a match that has taken place.
+2. The system displays the match's page and the match's data.
 ### 3.2.2.3 Associated Functional Requirements
-    1. There actor is not registered.
-    2. The actor is connected to the internet.
+1. There actor is not registered.
+2. The actor is connected to the internet.
 ---
 ### 3.2.3 System Feature 3 (Initiate Match)
 #### 3.2.3.1 Introduction/Purpose of Feature
-    This feature is a key feature of this software. With this feature, a new match instance shall be created and made available for now or later use.
-    The match shall contain the following information:
-    - Club Names
-    - Match Date
-    - Sets required to win
+This feature is a key feature of this software. With this feature, a new match instance shall be created and made available for now or later use.
+The match shall contain the following information:
+- Club Names
+- Match Date
+- Sets required to win
 
-    Optionally the match can contain:
-    - Team (e.g. U17-1 for age under 17 team 1, U17-2 for age under 17 team 2)
-    - Player Name (As GDPR )
+Optionally the match can contain:
+- Team (e.g. U17-1 for age under 17 team 1, U17-2 for age under 17 team 2)
+- Player Name (As GDPR )
 
 #### 3.2.3.2 Stimulus/Response Sequence
-    1. Actor selects option to initiate new match
-    2. System requests Actor to provide match data (Club names, match date, sets to win)
-    3. Actor provides match data (Club Names, match date, sets to win)
-    4. Actor selects to create match
-    5. System adds new match
+1. Actor selects option to initiate new match
+2. System requests Actor to provide match data (Club names, match date, sets to win)
+3. Actor provides match data (Club Names, match date, sets to win)
+4. Actor selects to create match
+5. System adds new match
 
 #### 3.2.3.3 Associated Functional Requirements
-    1. Actor must have Referee or higher permissions
-    2. Actor must provide valid information
-    3. Invalid Date results in now
+1. Actor must have Referee or higher permissions
+2. Actor must provide valid information
+3. Invalid Date results in now
 
 ---
 
@@ -139,38 +139,38 @@ It is assumed that the end user will have access to an internet connection at so
 
 ### 3.2.4.1 Introduction/Purpose of Feature
 
-    This feature is a key feature of this software. With this feature, the match data given by the referee through out the match shall be collected and directly uploaded to the database. In the database the data shall be stored and be available for everyone. This way it is ensured that the data shall be stored correctly in the database and shall not be changed during the process of archiving.
+This feature is a key feature of this software. With this feature, the match data given by the referee through out the match shall be collected and directly uploaded to the database. In the database the data shall be stored and be available for everyone. This way it is ensured that the data shall be stored correctly in the database and shall not be changed during the process of archiving.
 
 ### 3.2.4.2 Stimulus/Response Sequence
 
-    1. Actor selects option to close the game.
-    2. System checks given data and asks actor for confirmation.
-    3. Actor confirms.
-    4. System collects given data and uploads data to the database.
+1. Actor selects option to close the game.
+2. System checks given data and asks actor for confirmation.
+3. Actor confirms.
+4. System collects given data and uploads data to the database.
 
 ### 3.2.4.3 Associated Functional Requirements
 
-    1. Actor must have permissions of a referee
-    2. Actor must initiate a match before finalizing it
-    3. Actor must update the match before finalizing it
+1. Actor must have permissions of a referee
+2. Actor must initiate a match before finalizing it
+3. Actor must update the match before finalizing it
 ---
  
 ## 3.2.5 System Feature 5 (Update Match)
 
 ### 3.2.5.1 Introduction/Purpose of Feature
-    Allows the user(Admin) the ability to update scores, player and team information during the course of the match.
+Allows the user(Admin) the ability to update scores, player and team information during the course of the match.
 ### 3.2.5.2 Stimulus/Response Sequence
-    1. Actor selects ongoing game to update.
-    2. System displays current game information.
-    3. Actor changes team names and/or scores.
-    4. Actor indicates that they want to finalize the match.
-    5. System asks for confirmation.
-    6. Actor confirms.
-    7. System finalizes match information and returns the   actor to the match list.
+1. Actor selects ongoing game to update.
+2. System displays current game information.
+3. Actor changes team names and/or scores.
+4. Actor indicates that they want to finalize the match.
+5. System asks for confirmation.
+6. Actor confirms.
+7. System finalizes match information and returns the   actor to the match list.
 ### 3.2.5.3 Associated Functional Requirements
-    1. Actor must have permissions of a referee 
-    2. Actor must supply information that is valid else the request to confirm will be bounced by the system
-    3. Once a refree confirms the matches finalization, the matches data can no longer be changed.
+1. Actor must have permissions of a referee 
+2. Actor must supply information that is valid else the request to confirm will be bounced by the system
+3. Once a refree confirms the matches finalization, the matches data can no longer be changed.
 ---
 
 3.3 Performance Requirements
