@@ -85,6 +85,7 @@ It is assumed that the end user will have access to an internet connection at so
 3.1.3.2 Match must have been initiated.
 3.1.3.3 Match must have been updated.
 3.1.3.4 Match cannot be finalized.
+3.1.3.5 Match must be finalized.
 ### 3.1.4 Communication Interfaces
 3.1.4.1 Actor is connected to the internet.
 
@@ -98,6 +99,7 @@ This feature allows a user to look up a specific match that has taken place. Wit
 3. System shows all matches of that day.
 #### 3.2.1.3 Associated Functional Requirements
 Requirement 3.1.4.1
+Requirement 3.1.3.5
 
 ### 3.2.2 System Feature 2 (View Match)
 #### 3.2.2.1 Introduction/Purpose of Feature
@@ -110,6 +112,7 @@ It enables a user to look at the data for a match that has taken place.
 2. The system displays the match's page and the match's data.
 #### 3.2.2.3 Associated Functional Requirements
 Requirement 3.1.4.1
+Requirement 3.1.3.5
 
 ### 3.2.3 System Feature 3 (Initiate Match)
 
