@@ -76,15 +76,18 @@ It is assumed that the end user will have access to an internet connection at so
 
 # 3. Specific Requirements
 ## 3.1 External Interface Requirements
----
 ### 3.1.1 User Interfaces
----
+3.1.1.1 Actor is logged in as a referee or club management.
 ### 3.1.2 Hardware Interfaces
 ---
 ### 3.1.3 Software Interfaces
----
+3.1.3.1 Actor must provide valid information.
+3.1.3.2 Match must have been initiated.
+3.1.3.3 Match must have been updated.
+3.1.3.4 Match cannot be finalized.
 ### 3.1.4 Communication Interfaces
----
+3.1.4.1 Actor is connected to the internet.
+
 ## 3.2 System Features
 ### 3.2.1 System Feature 1 (Search Match)
 #### 3.2.1.1 Introduction/Purpose of Feature
@@ -94,8 +97,8 @@ This feature allows a user to look up a specific match that has taken place. Wit
 2. User actor selects date.
 3. System shows all matches of that day.
 #### 3.2.1.3 Associated Functional Requirements
-1. The actor is connected to the internet
----
+Requirement 3.1.4.1
+
 ### 3.2.2 System Feature 2 (View Match)
 #### 3.2.2.1 Introduction/Purpose of Feature
 It enables a user to look at the data for a match that has taken place.
@@ -106,11 +109,12 @@ It enables a user to look at the data for a match that has taken place.
 1. The user selects a match that has taken place.
 2. The system displays the match's page and the match's data.
 #### 3.2.2.3 Associated Functional Requirements
-1. There actor is not registered.
-2. The actor is connected to the internet.
----
+Requirement 3.1.4.1
+
 ### 3.2.3 System Feature 3 (Initiate Match)
+
 #### 3.2.3.1 Introduction/Purpose of Feature
+
 This feature is a key feature of this software. With this feature, a new match instance shall be created and made available for now or later use.
 The match shall contain the following information:
 - Club Names
@@ -122,6 +126,7 @@ Optionally the match can contain:
 - Player Name (As GDPR )
 
 #### 3.2.3.2 Stimulus/Response Sequence
+
 1. Actor selects option to initiate new match
 2. System requests Actor to provide match data (Club names, match date, sets to win)
 3. Actor provides match data (Club Names, match date, sets to win)
@@ -129,11 +134,10 @@ Optionally the match can contain:
 5. System adds new match
 
 #### 3.2.3.3 Associated Functional Requirements
-1. Actor must have Referee or higher permissions
-2. Actor must provide valid information
-3. Invalid Date results in now
 
----
+Requirement 3.1.1.1
+Requirement 3.1.3.1
+Requirement 3.1.4.1
 
 ### 3.2.4 System Feature 4 (Finalize Match)
 
@@ -150,10 +154,11 @@ This feature is a key feature of this software. With this feature, the match dat
 
 #### 3.2.4.3 Associated Functional Requirements
 
-1. Actor must have permissions of a referee
-2. Actor must initiate a match before finalizing it
-3. Actor must update the match before finalizing it
----
+Requirement 3.1.1.1
+Requirement 3.1.3.2
+Requirement 3.1.3.3
+Requirement 3.1.3.4
+Requirement 3.1.4.1
  
 ### 3.2.5 System Feature 5 (Update Match)
 
@@ -168,10 +173,10 @@ Allows the user(Admin) the ability to update scores, player and team information
 6. Actor confirms.
 7. System finalizes match information and returns the   actor to the match list.
 #### 3.2.5.3 Associated Functional Requirements
-1. Actor must have permissions of a referee 
-2. Actor must supply information that is valid else the request to confirm will be bounced by the system
-3. Once a refree confirms the matches finalization, the matches data can no longer be changed.
----
+
+Requirement 3.1.3.1
+Requirement 3.1.3.2
+Requirement 3.1.3.4
 
 ## 3.3 Performance Requirements
 
