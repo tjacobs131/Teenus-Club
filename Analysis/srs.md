@@ -184,7 +184,14 @@ Requirement 3.1.3.4
 ## 3.3 Performance Requirements
 
 ## 3.4 Design Constraints
-
+   - Our budget for this job is maximum 10000 euro for the entire project.
+   - This application shold be finished by ...
+   - The application's analysis and design phase should take ... weeks
+   - The application's implementation should take ... weeks
+   - The applications security must be a high level priority as that is the main reason for the development of this application.
+   - The application must be simple and intuitive for an umpire to perform their duty.
+   - The applications functionality will be seperated based on who is using the it.
+   - Information initially saved to match should not be able to be changed in order to uphold the integrity of the information and prevent cheating.
 ## 3.5 Software System Attributes
 
 ## 3.6 Other Requirements
