@@ -185,9 +185,9 @@ Requirement 3.1.3.4
 
 ## 3.4 Design Constraints
    - Our budget for this job is maximum 10000 euro for the entire project.
-   - This application shold be finished by ...
-   - The application's analysis and design phase should take ... weeks
-   - The application's implementation should take ... weeks
+   - This application should be finished by January 2023.
+   - The application's analysis and design phase should take 7 weeks
+   - The application's implementation should take 8 weeks
    - The applications security must be a high level priority as that is the main reason for the development of this application.
    - The application must be simple and intuitive for an umpire to perform their duty.
    - The applications functionality will be seperated based on who is using the it.
