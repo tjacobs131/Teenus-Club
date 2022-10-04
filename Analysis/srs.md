@@ -192,6 +192,22 @@ Requirement 3.1.3.4
    - The application must be simple and intuitive for an umpire to perform their duty.
    - The applications functionality will be seperated based on who is using the it.
    - Information initially saved to match should not be able to be changed in order to uphold the integrity of the information and prevent cheating.
+
 ## 3.5 Software System Attributes
+### 3.5.1 Reliability
+   - The product shall only provide valid data.
+   - The product shall have high security.
+### 3.5.2 Availability
+   - The product shall be available on websites.
+### 3.5.3 Security
+   - The product shall deny access to non-authenticated users.
+   - The product shall not allow updates to saved records.
+   - The product shall use https encryption.
+   - The product shall save who created what match when.
+   - The product shall eliminate interferences while saving records.
+### 3.5.4 Maintainability
+   - The product shall provide high maintainability.
+### 3.5.5 Portability
+   - The product shall be available on websites, thus it shall also be available on mobile, which is a very protable device.
 
 ## 3.6 Other Requirements
