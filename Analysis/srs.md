@@ -39,6 +39,10 @@ Date : January 1, 2022 <br>
 Publishing Organization : Super Tennis Racquet - Robert Dexter <br>
 https://supertennisracquet.com/tennis-ranking-system/
 
+Title : Using site speed in web searching <br>
+Date : April 09, 2010 <br>
+https://developers.google.com/search/blog/2010/04/using-site-speed-in-web-search-ranking
+
 ## 1.5  Overview
 
 Following this introductory section, the rest of the Software Requirements Specification document will further explain the specifics of the software system being produced. Chapter 2 focuses on the context for the proposed system, how it should function, and the related constraints. Chapter 3 provides a detailed listing of the requirements specific to the system following a hierarchical numbering scheme.
@@ -182,6 +186,13 @@ Requirement 3.1.3.2
 Requirement 3.1.3.4
 
 ## 3.3 Performance Requirements
+    - Uploading, searching or displaying a match should take no more than three seconds
+        - This number is recommended by google and
+    should be doable since the request is not very complicated.
+    
+    - Creating a match shall take not take longer than one second
+        - Loading times under one second do not interrupt the flow of the application and since this process happens locally this loading time is feasable in most cases.
+
 
 ## 3.4 Design Constraints
    - Our budget for this job is maximum 10000 euro for the entire project.
